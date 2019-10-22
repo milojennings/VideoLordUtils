@@ -8,6 +8,11 @@
 # extractvidclip.sh time_index length_in_seconds input_file     output_file(optional)
 # extractvidclip.sh 0:30       10                input_file.mkv output_file.mp4
 # 
+# The time index uses sexagesimal format (HOURS:MM:SS.MILLISECONDS, as in 01:23:45.678).
+# If a fraction is used, such as 02:30.05, this is interpreted as "5 100ths of a second", 
+# not as frame 5. For instance, 02:30.5 would be 2 minutes, 30 seconds, and a half a second, 
+# which would be the same as using 150.5 in seconds.
+# 
 # If no output filename is provided, the time index and length will be appended to the original filename
 
 time_index=$1

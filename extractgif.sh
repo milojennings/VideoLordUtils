@@ -1,3 +1,5 @@
+#!/bin/sh
+
 # INFO:
 # ----
 # Extract a GIF clip from a video at a specific time index for a specific length in seconds

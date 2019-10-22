@@ -20,7 +20,7 @@ function usage()
     echo "Note: use either video_quality or video_bitrate, not both"
     echo "video_quality=23 is the default"
     echo ""
-    echo "./test2.sh"
+    echo "./convert_video.sh"
     echo "\t-h  --help"
     echo "\t-o  --output=custom_file_name.mp4"
     echo "\t-vq --video_quality=23             (0–51, 0=lossless, 51=worst)"
